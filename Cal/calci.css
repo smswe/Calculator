@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#calculator{
+    width: 250px;
+    height: 320px;
+    margin:80px auto;
+    padding:10px;
+    border:3px solid black;
+    border-radius: 5px;
+    background-color: rgb(148, 146, 146);
+}
+
+input[type="button"]{
+    width:40px;
+    height:40px;
+    margin: 9px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 15px;  
+    border-radius: 4px;  
+}
+input[type="button"].opbtn {
+    background-color: rgb(255, 149, 1); 
+}
+
+input[type="button"]:hover{
+    background-color: rgb(5, 132, 60);
+}
+
+input[type="button"]:active{
+    background-color:  rgb(4, 99, 46);
+}
+
+
+input[type="text"]{
+    width:220px;
+    height:40px;
+    margin: 8px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: right;  
+}

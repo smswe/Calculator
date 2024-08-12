@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calci.css">
+
+</head>
+<body>
+    <h1>SM's Calculator</h1>
+    <div id="calculator">
+        <input type="text" id="display" readonly >
+        <br>
+        <div id="buttons">
+        <input type="button" value="7" onclick="addnum('7')">
+        <input type="button" value="8" onclick="addnum('8')">
+        <input type="button" value="9" onclick="addnum('9')">
+        <input type="button" value="*" class = "opbtn" onclick="setoperation('*')">
+        <br>
+        <input type="button" value="4" onclick="addnum('4')">
+        <input type="button" value="5" onclick="addnum('5')">
+        <input type="button" value="6" onclick="addnum('6')">
+        <input type="button" value="-" class = "opbtn" onclick="setoperation('-')">
+        <br>
+        <input type="button" value="1" onclick="addnum('1')">
+        <input type="button" value="2" onclick="addnum('2')">
+        <input type="button" value="3" onclick="addnum('3')">
+        <input type="button" value="+" class = "opbtn"  onclick="setoperation('+')">
+        <br>
+        <input type="button" value="/" class = "opbtn" onclick="setoperation('/')">
+        <input type="button" value="0" onclick="addnum('0')">
+        <input type="button" value="C" class = "opbtn" onclick="cleardisplay()">
+        <input type="button" value="=" class = "opbtn" onclick="calculate()">
+    </div>
+    </div>
+    
+</body>
+<script src="calci.js" ></script>
+</html>
