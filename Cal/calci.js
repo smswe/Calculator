@@ -49,7 +49,7 @@ function calculate() {
             break;
         case '/':
             result = prev / current;
-            return;
+            break;
     }
     currentnum = result.toString();
     operation = null;
